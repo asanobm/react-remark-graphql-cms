@@ -28,6 +28,6 @@
     "object-literal-sort-keys": false, // オブジェクトリテラルのキーをアルファベット順に並べることを強制する
     "object-literal-shorthand": false, // オブジェクトリテラルの省略記法を推奨する
     "jsx-no-lambda": false, // jsx 内での lambda の使用を許容しない
-    "no-submodule-imports": [true, "excluded-module1", "excluded-module2"] // サブモジュールの import を許容しない
+    "no-submodule-imports": [false, "excluded-module1", "excluded-module2"] // サブモジュールの import を許容しない
   }
 }
