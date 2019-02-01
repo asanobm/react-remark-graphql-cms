@@ -1,5 +1,5 @@
-import * as React from 'react'
-import styled from 'styled-components'
+import * as React from 'react';
+import Header from 'src/components/Header';
 
 /**
  * @description
@@ -9,15 +9,10 @@ export interface IndexProps {
   description: string
 }
 
-const Title = styled.h1`
-  margin: 0px;
-  background-color: #540324;
-`
-
 const IndexTemplate: React.SFC<IndexProps> = (props: IndexProps) => {
   return (
     <div>
-      <Title>{props.title}</Title>
+      <Header title="Hello" />
     </div>
   )
 }
